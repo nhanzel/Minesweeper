@@ -35,8 +35,3 @@ function validateLogin() {
         errorMessage.innerHTML = "<p>Server Error</p>";
     }
 }
-
-//Save the user's info if they logged in successfully
-function SaveUserInfo(u) {
-    localStorage.setItem("cs2550timestamp", u);
-}
