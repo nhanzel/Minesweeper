@@ -1,0 +1,24 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="model.js"></script>
+    <script type="text/javascript" src="view.js"></script>
+</head>
+
+<body onload="start()" >
+    <h1>Battleship</h1>
+    <div id="gameOptions">
+    <button type="button" class="smallerB" onclick="location.reload();">Reset</button>
+    <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+    </select>
+    <button onclick="displayD()" type="button" id="difficultyB" class="smallerB" onclick="location.reload();">Submit</button>
+    </div>
+    <div id="coordinates">
+    <p>Row: -, Column: -</p>
+    </div>
+    <div id="grid">
+        <!--html will be generated here for the grid-->
+    </div>
+</body>
